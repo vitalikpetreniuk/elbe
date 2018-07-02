@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'FoundryMonolineOT3ExtraBold';
+       src: url('FoundryMonolineOT3ExtraBold.woff2') format('woff2'),
+         url('FoundryMonolineOT3ExtraBold.woff') format('woff'),
+         url('FoundryMonolineOT3ExtraBold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'FoundryMonolineOT3Regular';
+    src: url('FoundryMonolineOT3Regular.woff2') format('woff2'),
+        url('FoundryMonolineOT3Regular.woff') format('woff'),
+        url('FoundryMonolineOT3Regular.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'FoundryMonolineOT3Medium';
+    src: url('FoundryMonolineOT3Medium.woff2') format('woff2'),
+        url('FoundryMonolineOT3Medium.woff') format('woff'),
+        url('FoundryMonolineOT3Medium.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'FoundryMonolineOT3Light';
+    src: url('FoundryMonolineOT3Light.woff2') format('woff2'),
+        url('FoundryMonolineOT3Light.woff') format('woff'),
+        url('FoundryMonolineOT3Light.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'FoundryMonolineOT3Bold';
+    src: url('FoundryMonolineOT3Bold.woff2') format('woff2'),
+        url('FoundryMonolineOT3Bold.woff') format('woff'),
+        url('FoundryMonolineOT3Bold.ttf') format('truetype')
+}

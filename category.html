@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,800" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <title>Elbe</title>
+
+    <link type="text/css" rel="stylesheet" href="css/jquery.mCustomScrollbar.css"/>
+    <link type="text/css" rel="stylesheet" href="fonts/fonts.css"/>
+    <link type="text/css" rel="stylesheet" href="css/normalize.css"/>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-grid.css"/>
+    <link type="text/css" rel="stylesheet" href="css/slick.css"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
+    <link type="text/css" rel="stylesheet" href="css/media.css"/>
+</head>
+
+<body class="el-body">
+    <div class="feedback modern-skin">
+        <div class="fb__holder">
+            <div class="scroll-container">
+                <div class="btn__fb-close"></div>
+                <h2 class="fb__title">БАЖАЄТЕ, ЩОБ МИ ЗВ’ЯЗАЛИСЬ З ВАМИ?</h2>
+                <span class="fb__schedule">Режим роботи: <br>
+понеділок-п’ятниця: 09.00 - 18.00</span>
+                <a href="tel:+38 (0332) 77-07-20">+38 (0332) 77-07-20</a>
+                <a href="tel:+38 (066) 038-34-61">+38 (066) 038-34-61</a>
+                <a href="tel:+38 (068) 097-74-66">+38 (068) 097-74-66</a>
+                <div class="fb__check-block">
+                    <a href="#" class="fb__check btn_mesenge active">Залишити повідомлення</a>
+                    <a href="#" class="fb__check btn_coll-me">Зателефонуйте мені</a>
+                </div>
+                <form action="#" class = "fb__form">
+                    <div class="fb__coll-me">
+                        <input name = 'fb-name' type="text" placeholder="Ваше ім’я">
+                        <input name = 'fb-phone' type="text" placeholder="Телефон">
+                        <div class="btn__block">
+                            <button class="fb__btn-submit submit" type="submit">ПІДТВЕРДИТИ</button>
+                            <button class="fb__btn-submit reset" type="reset">СКАСУВАТИ</button>
+                        </div>
+                    </div>
+                </form>
+                <form action="#" class = "fb__form">
+                    <div class="fb__mesenge active">
+                        <input name = 'fb-name' type="text" placeholder="Ваше ім’я">
+                        <input name = 'fb-email' type="email" placeholder="Ваш email">
+                        <textarea name="fb__mesenge" id="#" rows="5" placeholder="Напишіть Ваше повідомлення"></textarea>
+                        <div class="btn__block">
+                            <button class="fb__btn-submit submit" type="submit">ПІДТВЕРДИТИ</button>
+                            <button class="fb__btn-submit reset" type="reset">СКАСУВАТИ</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="logo"><a href="/"><img src="images/logo_elbe.png" alt="logo elbe"></a></div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <ul class="rates__list">
+                            <li class="reates__item">
+                                <span class="reate__name">USD</span>
+                                <span class="reate__value"> 26.6</span>
+                            </li>
+                            <li class="reates__item">
+                                <span class="reate__name">EUR </span>
+                                <span class="reate__value">30.99</span>
+                            </li>
+                            <li class="reates__item">
+                                <span class="reate__name">PLN</span>
+                                <span class="reate__value">7.07</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 flex-cont col-md-8">
+                        <form action="#" class="search">
+                            <button type="submit"><img src="images/icons/search.svg" alt="search icon"></button>
+                            <input class="search__input lg-show" type="text" placeholder="Пошук товарів та комплектуючих">
+                            <input class="search__input lg-hidden" type="text" placeholder="Пошук товарів">
+                        </form>
+                        <div class="cart active">
+                            <a class="cart-value">0</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4">
+                        <a href="#" class="btn btn--light">Зворотний зв’язок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="header__nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 hidden-sm col-md-4">
+                        <a href="#" class="category">КАТЕГОРІЇ ТОВАРІВ</a>
+                    </div>
+                    <div class="col-lg-5 nav__cont col-md-5">
+                        <ul class="el-menu">
+                            <li class="el-menu__item"><a href="#" class="el-menu__linck">Головна</a></li>
+                            <li class="el-menu__item"><a href="#" class="el-menu__linck">Сервіс та послуги</a></li>
+                            <li class="el-menu__item"><a href="#" class="el-menu__linck">Про наc</a></li>
+                            <li class="el-menu__item"><a href="#" class="el-menu__linck">Каталоги</a></li>
+                            <li class="el-menu__item"><a href="#" class="el-menu__linck">Контакти</a></li>
+                        </ul>
+                        <a href="#" class="btn__mobile-menu">
+                            <span></span><span></span><span></span>
+                        </a>
+                        <div class="el-menu__mobile">
+                            <ul class="el-menu__list mobile-menu">
+                                <li class="el-menu__item"><a href="#" class="el-menu__linck">Головна</a></li>
+                                <li class="el-menu__item"><a href="#" class="el-menu__linck">Сервіс та послуги</a></li>
+                                <li class="el-menu__item"><a href="#" class="el-menu__linck">Про наc</a></li>
+                                <li class="el-menu__item"><a href="#" class="el-menu__linck">Каталоги</a></li>
+                                <li class="el-menu__item"><a href="#" class="el-menu__linck">Контакти</a></li>
+                            </ul>
+                            <a href="#" class="category">КАТЕГОРІЇ ТОВАРІВ</a>
+                            <a class = 'el-shares' href="#">АКЦІЙНІ ТОВАРИ</a>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-2 shares__btn">
+                        <a class = 'el-shares' href="#">АКЦІЙНІ ТОВАРИ</a>
+                    </div>
+                    <div class="col-lg-2 phone__cont">
+                        <a class="header__phone" href="tel:+38 (066) 038-34-61">+38 (066) 038-34-61</a>
+                        <div class="header__phone--inner header__phone--hidden">
+                            <a href="#" class="btn__slide-up"></a>
+                            <a href="tel:+38 (066) 038-34-61">+38 (066) 038-34-61</a>
+                            <a href="tel:+38 (068) 097-74-66">+38 (068) 097-74-66</a>
+                            <span class="phone__time">з 9.00 до 18.00</span>
+                            <span class="phone_schedule">з понеділка по п’ятницю</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="el-card">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 hidden-sm">
+                    <div class="ctg__inner">
+                        <ul class="ctg__list">
+                            <li class="ctg__item ctg__item--folder">
+                                <a href="#" class="ctg__linck">Ворота</a>
+                                <ul class="ctg__list ctg__list--second">
+                                    <li class="ctg__item ctg__item--second">
+                                        <a href="#" class="ctg__linck">Застережні лампи</a>
+                                        <ul class="ctg__list ctg__list--third">
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a> </li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Семафори</a></li>
+                                    <li class="ctg__item ctg__item--second">
+                                        <a href="#" class="ctg__linck">Детектори індукційних петель</a>
+                                        <ul class="ctg__list ctg__list--third">
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Второй выпадающий список третьего уровня</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a> </li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second">
+                                        <a href="#" class="ctg__linck">Радарні датчики руху</a>
+                                        <ul class="ctg__list ctg__list--third">
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Третий выпадающий список с длинным названием</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a> </li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Кнопки та ригелі</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Мікровимикачі</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Сенсори</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">ЦПУ та аксесуари</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Сенсори</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">ЦПУ та аксесуари</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Сенсори</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">ЦПУ та аксесуари</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Сенсори</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">ЦПУ та аксесуари</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second">
+                                        <a href="#" class="ctg__linck">Сенсори</a>
+                                        <ul class="ctg__list ctg__list--third">
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Второй выпадающий список третьего уровня</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a> </li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="ctg__item ctg__item--folder"><a href="#" class="ctg__linck">Двері</a></li>
+                            <li class="ctg__item ctg__item--folder">
+                                <a href="#" class="ctg__linck">Ролетні системи</a>
+                                <ul class="ctg__list ctg__list--second">
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Застережні лампи</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Семафори</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Детектори індукційних петель</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Радарні датчики руху</a>
+                                    </li>
+                                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Кнопки та ригелі</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="ctg__item ctg__item--folder"><a href="#" class="ctg__linck">Автоматика</a></li>
+                            <li class="ctg__item ctg__item--folder"><a href="#" class="ctg__linck">Перевантажувальні
+                                системи</a></li>
+                            <li class="ctg__item ctg__item--folder"><a href="#" class="ctg__linck">Паркувальна техніка</a></li>
+                            <li class="ctg__item ctg__item--folder"><a href="#" class="ctg__linck">Конструкції зі скла
+                                та нержавіючої сталі</a></li>
+                            <li class="ctg__item ctg__item--folder"><a href="#" class="ctg__linck">Запчастини для воріт</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="attention"><span>УВАГА!</span> Усі ціни на сайті вказані без урахування ПДВ. Детальна інформація надається при консультації з нашим менеджером.</p>
+                            <ul class="breadcrumbs">
+                                <li><a href="#">Автоматика</a></li>
+                                <li><a href="#">Електроприводи</a></li>
+                                <li><span>Ще щось</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12">
+                            <div class="cards__item">
+                                <a href="#" class="cards__img">
+                                    <img src="images/controller.jpg" alt="img">
+                                    <span class="catds__title">Super pult 3000</span>
+                                </a>
+                                <div class="cards__description">Рандомний текст, який трохи
+                                    пояснює нащо ця штука</div>
+                                <div class="cards__prise"><span class="eu">€</span><span class="value">15.50</span></div>
+                                 <a href="#" class="cards__btn">Більше деталей</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6  col-12">
+                            <div class="cards__item">
+                                <a href="#" class="cards__img">
+                                    <img src="images/controller.jpg" alt="img">
+                                    <span class="catds__title">Super pult 3000</span>
+                                </a>
+                                <div class="cards__description">Рандомний текст, який трохи
+                                    пояснює нащо ця штука</div>
+                                <div class="cards__prise"><span class="eu">€</span><span class="value">150.50</span></div>
+                                 <a href="#" class="cards__btn">Більше деталей</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12">
+                            <div class="cards__item">
+                                <a href="#" class="cards__img">
+                                    <img src="images/controller.jpg" alt="img">
+                                    <span class="catds__title">Super pult 3000</span>
+                                </a>
+                                <div class="cards__description">Рандомний текст, який трохи
+                                    пояснює нащо ця штука</div>
+                                <div class="cards__prise"><span class="eu">€</span><span class="value">1555.50</span></div>
+                                 <a href="#" class="cards__btn">Більше деталей</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12">
+                            <div class="cards__item">
+                                <a href="#" class="cards__img">
+                                    <img src="images/controller.jpg" alt="img">
+                                    <span class="catds__title">Super pult 3000</span>
+                                </a>
+                                <div class="cards__description">Рандомний текст, який трохи
+                                    пояснює нащо ця штука</div>
+                                <div class="cards__prise"><span class="eu">€</span><span class="value">15555.50</span></div>
+                                 <a href="#" class="cards__btn">Більше деталей</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-12">
+                            <div class="cards__item">
+                                <a href="#" class="cards__img">
+                                    <img src="images/controller.jpg" alt="img">
+                                    <span class="catds__title">Super pult 3000</span>
+                                </a>
+                                <div class="cards__description">Рандомний текст, який трохи
+                                    пояснює нащо ця штука</div>
+                                <div class="cards__prise"><span class="eu">€</span><span class="value">15.50</span></div>
+                                 <a href="#" class="cards__btn">Більше деталей</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="el-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12">
+                    <div class="logo"><a href="/"><img src="images/logo_elbe.png" alt="logo elbe"></a></div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="el-footer__phones">
+                        <a href="tel:+38(0332)770720">+38 (0332) 77-07-20</a>
+                        <a href="tel:+38(0332)770720">+38 (066) 038-34-61</a>
+                        <a href="tel:+38(0332)770720">+38 (068) 097-74-66</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <address class="el-footer__address">
+                        <span>43025 Україна, м. Луцьк <br>
+                        вул. Винниченка 35/1</span>
+                        <a  class = "el-footer__mail" href="mailto:info.elbe-ua@ukr.net">E-mail: info.elbe-ua@ukr.net</a>
+                        <a href="http://info@elbe-ua.com">info@elbe-ua.com</a>
+                    </address>
+                </div>
+                <div class="offset-lg-1 col-lg-2 col-md-12">
+                    <a href="#" class="btn btn--darck">Зворотний зв’язок</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Mobile category-->
+    <div class="mobile__category">
+        <a href="#" class="btn__close btn__fb-close"></a>
+        <ul class="ctg__list modern-skin">
+            <li class="ctg__item ctg__item--folder">
+                <a href="#" class="ctg__linck">Ворота</a>
+                <ul class="ctg__list ctg__list--second">
+                    <li class="ctg__item ctg__item--second">
+                        <a href="#" class="ctg__linck">Застережні лампи</a>
+                        <ul class="ctg__list ctg__list--third">
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a> </li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                        </ul>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Семафори</a></li>
+                    <li class="ctg__item ctg__item--second">
+                        <a href="#" class="ctg__linck">Детектори індукційних петель</a>
+                        <ul class="ctg__list ctg__list--third">
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Второй выпадающий список третьего уровня</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a> </li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                        </ul>
+                    </li>
+                    <li class="ctg__item ctg__item--second">
+                        <a href="#" class="ctg__linck">Радарні датчики руху</a>
+                        <ul class="ctg__list ctg__list--third">
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Третий выпадающий список с длинным названием</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a> </li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                        </ul>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Кнопки та ригелі</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Мікровимикачі</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Сенсори</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">ЦПУ та аксесуари</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Сенсори</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">ЦПУ та аксесуари</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Сенсори</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">ЦПУ та аксесуари</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Сенсори</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">ЦПУ та аксесуари</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second">
+                        <a href="#" class="ctg__linck">Сенсори</a>
+                        <ul class="ctg__list ctg__list--third">
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Второй выпадающий список третьего уровня</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a> </li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Застережні лампи</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Семафори</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Детектори індукційних петель</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Радарні датчики руху</a></li>
+                            <li class="ctg__item"><a href="#" class="ctg__linck">Кнопки та ригелі</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="ctg__item ctg__item--folder"><a href="#" class="ctg__linck">Двері</a></li>
+            <li class="ctg__item ctg__item--folder">
+                <a href="#" class="ctg__linck">Ролетні системи</a>
+                <ul class="ctg__list ctg__list--second">
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Застережні лампи</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Семафори</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Детектори індукційних петель</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Радарні датчики руху</a>
+                    </li>
+                    <li class="ctg__item ctg__item--second"><a href="#" class="ctg__linck">Кнопки та ригелі</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="ctg__item ctg__item--folder"><a href="#" class="ctg__linck">Автоматика</a></li>
+            <li class="ctg__item ctg__item--folder"><a href="#" class="ctg__linck">Перевантажувальні
+                системи</a></li>
+            <li class="ctg__item ctg__item--folder"><a href="#" class="ctg__linck">Паркувальна техніка</a></li>
+            <li class="ctg__item ctg__item--folder"><a href="#" class="ctg__linck">Конструкції зі скла
+                та нержавіючої сталі</a></li>
+            <li class="ctg__item ctg__item--folder"><a href="#" class="ctg__linck">Запчастини для воріт</a></li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
+
