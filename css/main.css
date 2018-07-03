@@ -744,7 +744,8 @@ p:not(:last-child) {
   margin-bottom: 60px; }
 
 .ps__list {
-  position: relative; }
+  position: relative;
+  margin: 0 15px; }
   .ps__list .slick-arrow {
     position: absolute;
     font-size: 0;

@@ -246,6 +246,14 @@
     left: auto;
     right: 0; } }
 
+@media only screen and (max-width: 1199px) {
+  .ct__title {
+    padding: 20px;
+    font-size: 20px; }
+  .ct__subtitle {
+    display: block;
+    font-size: 16px; } }
+
 @media only screen and (max-width: 1024px) {
   .hidden-sm {
     display: none; }
@@ -320,6 +328,9 @@
            object-fit: contain; } }
 
 @media only screen and (max-width: 992px) {
+  .ct__title {
+    padding: 16px;
+    font-size: 16px; }
   .ct__item {
     padding-bottom: 30px; }
   .rect-bg {
@@ -341,9 +352,6 @@
     height: 140px; }
     .ct__card img {
       height: 140px; }
-  .ct__title {
-    padding: 15px;
-    font-size: 16px; }
   .ct__subtitle {
     font-size: 14px; }
   .el-text__title {
